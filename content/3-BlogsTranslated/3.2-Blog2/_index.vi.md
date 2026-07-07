@@ -14,7 +14,7 @@ Trong quá trình phát tri?n ?ng d?ng trên AWS, vi?c l?a ch?n co s? d? li?u phù h?
 
 DynamoDB là d?ch v? NoSQL du?c AWS qu?n lý hoàn toàn. Ngu?i dùng không c?n cài d?t máy ch?, b?o trì hay m? r?ng h? t?ng. Tuy nhiên, ngu?i phát tri?n c?n hi?u rõ cách DynamoDB x? lý throughput d? ch?n ch? d? phù h?p.
 
-![DynamoDB Throughput](/fcj-workshop-minhthanh/images/3-BlogsTranslated/blog2/image1.jpeg)
+![DynamoDB Throughput](/images/3-BlogsTranslated/blog2/image1.jpeg)
 
 ## Capacity Mode trong DynamoDB
 

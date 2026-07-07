@@ -46,7 +46,7 @@ aws ecr get-login-password --region $REGION | docker login --username AWS --pass
 
 N?u terminal hi?n th? `Login Succeeded` thì Docker dã có th? push image lên ECR.
 
-![Docker login vào ECR](/fcj-workshop-minhthanh/images/5-Workshop/hashop-deployment/image3.png)
+![Docker login vào ECR](/images/5-Workshop/hashop-deployment/image3.png)
 
 T?i gói container image dã ki?m th?:
 
@@ -90,6 +90,6 @@ foreach ($img in $IMAGES) {
 
 N?u gói image du?c luu ? v? trí khác, c?n thay `$IMAGE_DIR` b?ng du?ng d?n th?c t? trên máy.
 
-![Load và push Docker image](/fcj-workshop-minhthanh/images/5-Workshop/hashop-deployment/image4.png)
+![Load và push Docker image](/images/5-Workshop/hashop-deployment/image4.png)
 
-![Docker image dã push lên ECR](/fcj-workshop-minhthanh/images/5-Workshop/hashop-deployment/image5.png)
+![Docker image dã push lên ECR](/images/5-Workshop/hashop-deployment/image5.png)

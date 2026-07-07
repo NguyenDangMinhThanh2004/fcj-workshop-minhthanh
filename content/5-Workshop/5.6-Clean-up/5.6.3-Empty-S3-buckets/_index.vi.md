@@ -14,4 +14,4 @@ K?t qu? mong d?i:
 - Không còn stack ph? thu?c b? k?t ? tr?ng thái xóa l?i.
 - AWS account không còn gi? tài nguyên lab có th? phát sinh chi phí.
 
-![Empty S3 bucket do foundation t?o](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/image13.png)
+![Empty S3 bucket do foundation t?o](/images/5-Workshop/hashop-test-cleanup/image13.png)

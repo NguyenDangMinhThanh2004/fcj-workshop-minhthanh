@@ -14,4 +14,4 @@ Expected result:
 - No dependent stack remains in a failed deletion state.
 - The AWS account no longer keeps resources that can generate lab costs.
 
-![Delete ECR repositories](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/image16.png)
+![Delete ECR repositories](/images/5-Workshop/hashop-test-cleanup/image16.png)

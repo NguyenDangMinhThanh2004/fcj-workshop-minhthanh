@@ -43,7 +43,7 @@ Gi?i pháp giúp h? th?ng d? m? r?ng theo t?ng domain nghi?p v?, gi?m r?i ro khi t
 
 HaShop s? d?ng ki?n trúc cloud-native trên AWS v?i các l?p chính: **Edge/Frontend Layer**, **Authentication Layer**, **Application Layer**, **Async Processing Layer**, **Data Layer** và **Management/Observability Layer**.
 
-![HaShop AWS Architecture](/fcj-workshop-minhthanh/images/2-Proposal/hashop-architecture.png)
+![HaShop AWS Architecture](/images/2-Proposal/hashop-architecture.png)
 
 ? l?p Edge/Frontend, ngu?i dùng truy c?p website thông qua Amazon CloudFront. CloudFront phân ph?i static frontend t? S3, áp d?ng CloudFront Function cho route rewrite và chuy?n ti?p request `/api/*` d?n Application Load Balancer. AWS WAF du?c d?t ? phía tru?c d? tang kh? nang b?o v? ?ng d?ng kh?i các request b?t thu?ng.
 
