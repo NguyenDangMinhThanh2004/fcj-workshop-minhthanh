@@ -21,6 +21,6 @@ K?t qu? mong d?i:
 - `payment-worker` x? lý message t? SQS.
 - `order-worker` c?p nh?t tr?ng thái don hàng sau khi có k?t qu? thanh toán.
 
-![Lu?ng checkout don hàng](/images/5-Workshop/hashop-test-cleanup/image7.png)
+![Lu?ng checkout don hàng](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/image7.png)
 
-![Ki?m tra tr?ng thái don hàng](/images/5-Workshop/hashop-test-cleanup/image8.png)
+![Ki?m tra tr?ng thái don hàng](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/image8.png)

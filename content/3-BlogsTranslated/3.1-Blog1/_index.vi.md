@@ -16,7 +16,7 @@ Trong các ?ng d?ng hi?n d?i nhu n?n t?ng streaming, thuong m?i di?n t? ho?c h? t
 
 AWS cung c?p m?t hu?ng ti?p c?n hi?u qu? b?ng cách k?t h?p nhi?u d?ch v? luu tr? d? li?u v?i Amazon OpenSearch Service d? xây d?ng m?t h? th?ng tìm ki?m h?p nh?t.
 
-![Unified JSON Search Architecture](/images/3-BlogsTranslated/blog1/image1.jpeg)
+![Unified JSON Search Architecture](/fcj-workshop-minhthanh/images/3-BlogsTranslated/blog1/image1.jpeg)
 
 ## Vì sao không s? d?ng m?t co s? d? li?u duy nh?t?
 

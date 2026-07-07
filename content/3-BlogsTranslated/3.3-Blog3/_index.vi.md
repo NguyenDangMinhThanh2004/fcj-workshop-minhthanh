@@ -12,7 +12,7 @@ pre: " <b> 3.3. </b> "
 
 Khi v?n hành h? t?ng AWS, chi phí EC2 thu?ng là m?t trong nh?ng ph?n d? tang nh?t. Nhi?u d?i tri?n khai EC2 theo hu?ng "ch?n du cho ch?c", copy c?u hình t? d? án cu ho?c không rà soát l?i sau khi workload thay d?i. K?t qu? là nhi?u instance ch?y quá l?n so v?i nhu c?u th?c t?.
 
-![EC2 Right-Sizing Automation](/images/3-BlogsTranslated/blog3/image1.png)
+![EC2 Right-Sizing Automation](/fcj-workshop-minhthanh/images/3-BlogsTranslated/blog3/image1.png)
 
 ## 2. V?n d?: vì sao lãng phí x?y ra?
 

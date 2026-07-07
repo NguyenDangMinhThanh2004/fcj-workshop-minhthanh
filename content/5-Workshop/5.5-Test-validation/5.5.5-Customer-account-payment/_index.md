@@ -12,33 +12,33 @@ This test validates the customer account flow on the HaShop frontend. The purpos
 
 Open the HaShop registration page and enter the required customer information, including full name, email address, phone number, password, and password confirmation.
 
-![Customer registration page](/images/5-Workshop/hashop-test-cleanup/customer-account/image1.png)
+![Customer registration page](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image1.png)
 
 After submitting the form, check the registered email inbox for the verification code. If the email does not appear in the inbox, check the spam or junk mail folder.
 
-![Verification email](/images/5-Workshop/hashop-test-cleanup/customer-account/image2.png)
+![Verification email](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image2.png)
 
 Enter the OTP code on the email verification page to activate the customer account.
 
-![Email verification page](/images/5-Workshop/hashop-test-cleanup/customer-account/image3.png)
+![Email verification page](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image3.png)
 
-![Email verification completed](/images/5-Workshop/hashop-test-cleanup/customer-account/image4.png)
+![Email verification completed](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image4.png)
 
 ## Log in with the customer account
 
 After the account is verified successfully, return to the login page and sign in with the newly created customer account.
 
-![Customer login page](/images/5-Workshop/hashop-test-cleanup/customer-account/image5.png)
+![Customer login page](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image5.png)
 
 ## Update profile and payment method
 
 From the customer account area, open `Profile`, then choose the edit profile option.
 
-![Customer profile page](/images/5-Workshop/hashop-test-cleanup/customer-account/image6.png)
+![Customer profile page](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image6.png)
 
 Update the customer information, add the delivery address, and link MoMo as the payment method.
 
-![Edit profile and add payment method](/images/5-Workshop/hashop-test-cleanup/customer-account/image7.png)
+![Edit profile and add payment method](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image7.png)
 
 Expected result:
 

@@ -20,4 +20,4 @@ K?t qu? mong d?i:
 - Static asset du?c phân ph?i thông qua CloudFront.
 - Trình duy?t không hi?n th? l?i t?i trang.
 
-![Trang ch? HaShop hi?n th? thành công](/images/5-Workshop/hashop-test-cleanup/image1.png)
+![Trang ch? HaShop hi?n th? thành công](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/image1.png)

@@ -19,7 +19,7 @@ Ki?m tra các ph?n sau:
 - Sampled requests
 - Rule metrics
 
-![Metric c?a AWS WAF](/images/5-Workshop/hashop-test-cleanup/image10.png)
+![Metric c?a AWS WAF](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/image10.png)
 
 K?t qu? mong d?i:
 

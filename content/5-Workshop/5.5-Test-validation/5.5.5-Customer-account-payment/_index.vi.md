@@ -12,33 +12,33 @@ Phần kiểm thử này dùng để xác thực luồng tài khoản customer t
 
 Truy cập trang đăng ký tài khoản của HaShop, sau đó nhập các thông tin cơ bản gồm họ tên, email, số điện thoại, mật khẩu và xác nhận mật khẩu.
 
-![Trang đăng ký tài khoản customer](/images/5-Workshop/hashop-test-cleanup/customer-account/image1.png)
+![Trang đăng ký tài khoản customer](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image1.png)
 
 Sau khi gửi form đăng ký, kiểm tra email để lấy mã xác thực tài khoản. Nếu không thấy email trong hộp thư đến, cần kiểm tra thêm thư mục spam hoặc mail rác.
 
-![Email chứa mã xác thực](/images/5-Workshop/hashop-test-cleanup/customer-account/image2.png)
+![Email chứa mã xác thực](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image2.png)
 
 Nhập mã OTP trên trang xác thực email để kích hoạt tài khoản customer.
 
-![Trang xác thực email](/images/5-Workshop/hashop-test-cleanup/customer-account/image3.png)
+![Trang xác thực email](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image3.png)
 
-![Xác thực email thành công](/images/5-Workshop/hashop-test-cleanup/customer-account/image4.png)
+![Xác thực email thành công](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image4.png)
 
 ## Đăng nhập bằng tài khoản customer
 
 Sau khi hoàn tất xác thực, quay lại trang đăng nhập và đăng nhập bằng tài khoản customer vừa tạo.
 
-![Trang đăng nhập customer](/images/5-Workshop/hashop-test-cleanup/customer-account/image5.png)
+![Trang đăng nhập customer](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image5.png)
 
 ## Chỉnh sửa hồ sơ và thêm phương thức thanh toán
 
 Từ khu vực tài khoản customer, vào `Profile`, sau đó chọn chức năng chỉnh sửa hồ sơ.
 
-![Trang hồ sơ customer](/images/5-Workshop/hashop-test-cleanup/customer-account/image6.png)
+![Trang hồ sơ customer](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image6.png)
 
 Cập nhật thông tin cá nhân, thêm địa chỉ giao hàng và liên kết MoMo làm phương thức thanh toán.
 
-![Chỉnh sửa hồ sơ và thêm phương thức thanh toán](/images/5-Workshop/hashop-test-cleanup/customer-account/image7.png)
+![Chỉnh sửa hồ sơ và thêm phương thức thanh toán](/fcj-workshop-minhthanh/images/5-Workshop/hashop-test-cleanup/customer-account/image7.png)
 
 Kết quả mong đợi:
 
