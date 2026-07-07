@@ -1,125 +1,153 @@
 ---
 title: "Event 1"
-date: 2024-01-01
+date: 2026-05-23
 weight: 1
 chapter: false
 pre: " <b> 4.1. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
-# Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
 
-### Mục Đích Của Sự Kiện
+# Bài thu hoạch: "FCAJ Community Day"
 
-- Chia sẻ best practices trong thiết kế ứng dụng hiện đại
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
-- Giới thiệu công cụ AI hỗ trợ development lifecycle
+## Mục Đích Của Sự Kiện
 
-### Danh Sách Diễn Giả
+Cung cấp cho người tham gia cái nhìn tổng quan về các xu hướng công nghệ hiện tại, đặc biệt là trí tuệ nhân tạo, điện toán đám mây, các mô hình ngôn ngữ lớn, hệ thống đa tác nhân và phát triển sản phẩm thực tế.
 
-- **Jignesh Shah** - Director, Open Source Databases
-- **Erica Liu** - Sr. GTM Specialist, AppMod
-- **Fabrianne Effendi** - Assc. Specialist SA, Serverless Amazon Web Services
+Giúp người tham gia hiểu cách AI và Cloud đang được áp dụng trong học tập, phát triển phần mềm, vận hành doanh nghiệp, tối ưu hóa hệ thống và ra quyết định kinh doanh.
 
-### Nội Dung Nổi Bật
+Giới thiệu các cách tiếp cận thực tế để sử dụng AI hiệu quả, bao gồm cung cấp ngữ cảnh tốt hơn, xây dựng trợ lý AI, tối ưu hóa hệ thống với Amazon CloudFront và hiểu cách các LLM hoạt động trong môi trường sản xuất.
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+Tạo cơ hội cho sinh viên, nhà phát triển và những người yêu thích công nghệ học hỏi từ các diễn giả có kinh nghiệm, kết nối với cộng đồng và có động lực để xây dựng các sản phẩm công nghệ thực tế.
 
-- Thời gian release sản phẩm lâu → Mất doanh thu/bỏ lỡ cơ hội
-- Hoạt động kém hiệu quả → Mất năng suất, tốn kém chi phí
-- Không tuân thủ các quy định về bảo mật → Mất an ninh, uy tín
+## Thông Tin Chung
 
-#### Chuyển đổi sang kiến trúc ứng dụng mới - Microservice Architecture
+* **Tên sự kiện:** FCAJ Community Day
+* **Thời gian:** 09:00, ngày 23 tháng 5 năm 2026
+* **Địa điểm:** Tầng 26, Tòa nhà Bitexco, 02 Đường Hai Triều, Phường Sài Gòn, Thành phố Hồ Chí Minh
+* **Vai trò:** Người tham dự
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+## Diễn Giả / Người Trình Bày Chính
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+* **Tinh Trương** – Platform Engineer, GoTymeX
+* **Phạm Ng Hải Anh** – G-AsiaPacific Vietnam, AWS Community Builder
+* **Nguyễn Tuấn Thịnh** – DevOps Engineer, First Cloud AI Journey
+* **Team VIB** – Đội ngũ phát triển UTMorpho tại LotusHacks
+* **Đức Đào** – Solution Architect, Cloud Kinetics
+* **Vy Lam** – Senior Business Systems Analyst, VPBank
 
-#### Domain-Driven Design (DDD)
+## Chủ Đề Chính & Nội Dung Học Được
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+### Context Engineering để Sử Dụng AI Tốt Hơn
 
-#### Event-Driven Architecture
+Một trong những thông điệp chính từ sự kiện là hiệu suất của AI phụ thuộc rất nhiều vào chất lượng ngữ cảnh do người dùng cung cấp. Trong nhiều trường hợp, AI không đưa ra câu trả lời hữu ích vì prompt quá chung chung, thiếu thông tin nền hoặc không mô tả rõ ràng đầu ra mong đợi.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+Một yêu cầu tốt nên bao gồm mục tiêu, dữ liệu liên quan, các ràng buộc, định dạng đầu ra và tiêu chí đánh giá. Khi ngữ cảnh rõ ràng, AI có thể tạo ra các câu trả lời chính xác, phù hợp hơn và dễ áp dụng vào các nhiệm vụ thực tế hơn.
 
-#### Compute Evolution
+Phiên này cũng giới thiệu ý tưởng về **Second AI Brain**, trong đó AI không chỉ được sử dụng cho các câu trả lời một lần mà còn có thể hỗ trợ tổ chức kiến thức dài hạn, phân tích tài liệu, ghi chú và hệ thống học tập cá nhân.
 
-- **Shared Responsibility Model**: Từ EC2 → ECS → Fargate → Lambda
-- **Serverless benefits**: No server management, auto-scaling, pay-for-value
-- **Functions vs Containers**: Criteria lựa chọn phù hợp
+### Trợ Lý AI Thân Thiện với Amazon Quick
 
-#### Amazon Q Developer
+Phiên về Amazon Quick đã chỉ ra cách các trợ lý AI có thể hỗ trợ phân tích dữ liệu, tự động hóa quy trình, tạo báo cáo và cộng tác. AI không còn giới hạn ở các tương tác trò chuyện đơn giản; nó có thể trở thành trợ lý thực tế cho công việc hàng ngày.
 
-- **SDLC automation**: Từ planning đến maintenance
-- **Code transformation**: Java upgrade, .NET modernization
-- **AWS Transform agents**: VMware, Mainframe, .NET migration
+Một số thành phần quan trọng đã được giới thiệu, bao gồm Quick Chat Agent để khám phá dữ liệu, Quick Flows để xây dựng quy trình bằng ngôn ngữ tự nhiên, Quick Spaces để cộng tác nhóm và Quick Sight để tạo bảng điều khiển và báo cáo.
 
-### Những Gì Học Được
+Từ phiên này, người tham dự học được rằng các trợ lý AI có thể giảm các nhiệm vụ lặp đi lặp lại, cải thiện việc ra quyết định và giúp cả người dùng kỹ thuật và không kỹ thuật làm việc hiệu quả hơn.
 
-#### Tư Duy Thiết Kế
+### Amazon CloudFront và Tối Ưu Hóa Hệ Thống
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Importance của common vocabulary giữa business và tech teams
-- **Bounded contexts**: Cách identify và manage complexity trong large systems
+Phiên CloudFront đã giải thích cách Amazon CloudFront đóng vai trò quan trọng trong kiến trúc đám mây hiện đại. CloudFront không chỉ là một CDN để phân phối nội dung tĩnh mà còn là lớp nền tảng để cải thiện hiệu suất, độ tin cậy, bảo mật và hiệu quả chi phí.
 
-#### Kiến Trúc Kỹ Thuật
+CloudFront giúp giảm độ trễ bằng cách lưu bộ nhớ đệm nội dung gần người dùng hơn thông qua các vị trí biên toàn cầu. Nó cũng giảm tải cho các máy chủ nguồn và cải thiện trải nghiệm người dùng cho các trang web, API và ứng dụng có lưu lượng truy cập cao.
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
+Phiên này cũng nhấn mạnh các tính năng bảo mật như HTTPS, kiểm soát truy cập, AWS WAF, AWS Shield, URL đã ký, chính sách lưu bộ nhớ đệm và chuyển đổi dự phòng nguồn. Các tính năng này giúp hệ thống trở nên nhanh hơn, an toàn hơn và ổn định hơn trong các môi trường sản xuất.
 
-#### Chiến Lược Hiện Đại Hóa
+### Xây Dựng UTMorpho trong 36 Giờ tại LotusHacks
 
-- **Phased approach**: Không rush, phải có roadmap rõ ràng
-- **7Rs framework**: Nhiều con đường khác nhau tùy thuộc vào đặc điểm của mỗi ứng dụng
-- **ROI measurement**: Cost reduction + business agility
+Team VIB đã chia sẻ kinh nghiệm xây dựng **UTMorpho** trong LotusHacks chỉ trong 36 giờ. Câu chuyện của họ cho thấy phát triển sản phẩm không phải lúc nào cũng bắt đầu với một ý tưởng hoàn hảo. Thay vào đó, nó thường bắt đầu bằng việc quan sát các vấn đề thực tế, xác định các điểm đau và dần dần định hình một giải pháp.
 
-### Ứng Dụng Vào Công Việc
+Đội ngũ phải đối mặt với áp lực thời gian, các vấn đề kỹ thuật, phân chia nhiệm vụ, tích hợp, kiểm tra và chuẩn bị demo. Điều này giúp người tham dự hiểu rằng một hackathon không chỉ là về việc viết mã nhanh mà còn về làm việc nhóm, tư duy sản phẩm, ưu tiên và giao tiếp.
 
-- **Áp dụng DDD** cho project hiện tại: Event storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để identify service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-- **Serverless adoption**: Pilot AWS Lambda cho một số use cases phù hợp
-- **Try Amazon Q Developer**: Integrate vào development workflow để boost productivity
+Một bài học quan trọng từ phiên này là các đội nên tập trung vào giá trị cốt lõi của sản phẩm, xây dựng MVP trước và tránh cố gắng triển khai quá nhiều tính năng trong thời gian hạn chế.
 
-### Trải nghiệm trong event
+### Không Xác Định trong Đầu Ra Của LLM
 
-Tham gia workshop **“GenAI-powered App-DB Modernization”** là một trải nghiệm rất bổ ích, giúp tôi có cái nhìn toàn diện về cách hiện đại hóa ứng dụng và cơ sở dữ liệu bằng các phương pháp và công cụ hiện đại. Một số trải nghiệm nổi bật:
+Một phiên quan trọng khác đã thảo luận về hành vi của các Mô hình Ngôn ngữ Lớn. LLM tạo ra phản hồi từng token dựa trên xác suất, điều đó có nghĩa là đầu ra của chúng có thể không phải lúc nào cũng hoàn toàn giống nhau, ngay cả khi các cài đặt có vẻ xác định.
 
-#### Học hỏi từ các diễn giả có chuyên môn cao
-- Các diễn giả đến từ AWS và các tổ chức công nghệ lớn đã chia sẻ **best practices** trong thiết kế ứng dụng hiện đại.
-- Qua các case study thực tế, tôi hiểu rõ hơn cách áp dụng **Domain-Driven Design (DDD)** và **Event-Driven Architecture** vào các project lớn.
+Phiên này giải thích rằng ngay cả với **temperature = 0**, đầu ra vẫn có thể thay đổi do tối ưu hóa suy luận, xử lý song song, xử lý theo lô hoặc sự khác biệt về cơ sở hạ tầng. Đây là một điểm quan trọng cho các nhà phát triển muốn tích hợp LLM vào các ứng dụng thực tế.
 
-#### Trải nghiệm kỹ thuật thực tế
-- Tham gia các phiên trình bày về **event storming** giúp tôi hình dung cách **mô hình hóa quy trình kinh doanh** thành các domain events.
-- Học cách **phân tách microservices** và xác định **bounded contexts** để quản lý sự phức tạp của hệ thống lớn.
-- Hiểu rõ trade-offs giữa **synchronous và asynchronous communication** cũng như các pattern tích hợp như **pub/sub, point-to-point, streaming**.
+Điều rút ra chính là các hệ thống AI không nên chỉ dựa vào các prompt. Các hệ thống sản xuất cần xác thực, đầu ra có cấu trúc, logic dự phòng, giám sát và kiểm tra lặp lại để giảm rủi ro kết quả không nhất quán.
 
-#### Ứng dụng công cụ hiện đại
-- Trực tiếp tìm hiểu về **Amazon Q Developer**, công cụ AI hỗ trợ SDLC từ lập kế hoạch đến maintenance.
-- Học cách **tự động hóa code transformation** và pilot serverless với **AWS Lambda**, từ đó nâng cao năng suất phát triển.
+### Hệ Thống Đa Tác Nhân Cấp Doanh Nghiệp
 
-#### Kết nối và trao đổi
-- Workshop tạo cơ hội trao đổi trực tiếp với các chuyên gia, đồng nghiệp và team business, giúp **nâng cao ngôn ngữ chung (ubiquitous language)** giữa business và tech.
-- Qua các ví dụ thực tế, tôi nhận ra tầm quan trọng của **business-first approach**, luôn bắt đầu từ nhu cầu kinh doanh thay vì chỉ tập trung vào công nghệ.
+Phiên cuối cùng đã giới thiệu một hệ thống đa tác nhân cấp doanh nghiệp thông qua một nghiên cứu trường hợp chấm điểm tín dụng khởi nghiệp. Thay vì sử dụng một tác nhân AI duy nhất để đánh giá mọi thứ, hệ thống đã sử dụng nhiều tác nhân với các trách nhiệm khác nhau.
 
-#### Bài học rút ra
-- Việc áp dụng DDD và event-driven patterns giúp giảm **coupling**, tăng **scalability** và **resilience** cho hệ thống.
-- Chiến lược hiện đại hóa cần **phased approach** và đo lường **ROI**, không nên vội vàng chuyển đổi toàn bộ hệ thống.
-- Các công cụ AI như Amazon Q Developer có thể **boost productivity** nếu được tích hợp vào workflow phát triển hiện tại.
+Các tác nhân đề xuất bao gồm:
 
-#### Một số hình ảnh khi tham gia sự kiện
-* Thêm các hình ảnh của các bạn tại đây
-> Tổng thể, sự kiện không chỉ cung cấp kiến thức kỹ thuật mà còn giúp tôi thay đổi cách tư duy về thiết kế ứng dụng, hiện đại hóa hệ thống và phối hợp hiệu quả hơn giữa các team.
+* **Financial Analyst**
+* **Market Analyst**
+* **Team Evaluator**
+* **Risk Assessor**
+* **Compliance Agent**
+* **Manager Agent**
+
+Mô hình này hoạt động như một ủy ban tín dụng ảo, trong đó mỗi tác nhân tập trung vào một lĩnh vực đánh giá cụ thể. Cách tiếp cận này cải thiện chuyên môn hóa, kiểm tra chéo, khả năng kiểm toán và kiểm soát.
+
+Từ chủ đề này, người tham dự học được rằng AI trong môi trường doanh nghiệp không chỉ phải thông minh mà còn phải an toàn, giải thích được, tuân thủ và có thể mở rộng.
+
+## Điều Rút Ra Chính
+
+### Tư Duy Sử Dụng AI
+
+AI nên được sử dụng với ngữ cảnh rõ ràng và mục tiêu rõ ràng. Một prompt tốt cần đủ thông tin nền, định dạng đầu ra mong đợi và các ràng buộc. Người dùng không nên thụ động chấp nhận phản hồi của AI mà nên xác minh, tinh chỉnh và cải thiện kết quả.
+
+### Trợ Lý AI và Tự Động Hóa
+
+Các trợ lý AI có thể hỗ trợ các nhiệm vụ thực tế như phân tích dữ liệu, tạo báo cáo, tạo bảng điều khiển, xây dựng quy trình và cải thiện cộng tác nhóm. Điều này cho thấy cách AI có thể hỗ trợ cả người dùng kỹ thuật và kinh doanh.
+
+### Kiến Trúc Đám Mây và Tối Ưu Hóa
+
+CloudFront đã chứng minh rằng một hệ thống đám mây tốt không chỉ cần chạy chính xác mà còn phải nhanh, an toàn, đáng tin cậy và hiệu quả về chi phí. Lưu bộ nhớ đệm, các vị trí biên, bảo vệ nguồn và chuyển đổi dự phòng là những khái niệm quan trọng cho các hệ thống sản xuất.
+
+### Tư Duy Sản Phẩm và Làm Việc Nhóm
+
+Câu chuyện UTMorpho cho thấy một sản phẩm tốt bắt đầu từ một vấn đề thực tế. Trong một thời gian phát triển ngắn, các đội cần tập trung vào các tính năng cốt lõi, phân chia nhiệm vụ rõ ràng, kiểm tra liên tục và chuẩn bị một bài thuyết trình mạnh mẽ.
+
+### Độ Tin Cậy Của LLM
+
+LLM mạnh mẽ nhưng không phải lúc nào cũng hoàn toàn có thể đoán trước được. Khi áp dụng LLM vào các hệ thống thực tế, nhà phát triển cần xác thực đầu ra, giám sát, các biện pháp bảo vệ và cơ chế dự phòng để làm cho hệ thống đáng tin cậy hơn.
+
+### Tư Duy AI Doanh Nghiệp
+
+Các hệ thống AI doanh nghiệp yêu cầu nhiều hơn là hiệu suất mô hình. Chúng cũng cần bảo mật, tuân thủ, dấu vết kiểm toán, khả năng mở rộng và kiểm soát vận hành. Các hệ thống đa tác nhân hữu ích cho các nhiệm vụ phức tạp đòi hỏi nhiều góc nhìn.
+
+## Ứng Dụng Vào Công Việc
+
+Kiến thức từ FCAJ Community Day có thể được áp dụng vào học tập, dự án cá nhân và phát triển phần mềm thực tế.
+
+Khi sử dụng AI cho việc học, mã hóa, viết báo cáo hoặc thiết kế hệ thống, tôi nên cung cấp ngữ cảnh rõ ràng hơn, bao gồm mục tiêu, dữ liệu đầu vào, định dạng mong đợi và các giới hạn. Điều này sẽ giúp AI tạo ra kết quả hữu ích và chính xác hơn.
+
+Đối với các dự án web hoặc đám mây, kiến thức về Amazon CloudFront có thể được áp dụng để cải thiện tốc độ tải trang web, giảm tải máy chủ, bảo vệ nguồn và tối ưu hóa chi phí. CloudFront cũng có thể được kết hợp với HTTPS, WAF, Shield, các chính sách lưu bộ nhớ đệm và chuyển đổi dự phòng nguồn để sẵn sàng sản xuất tốt hơn.
+
+Đối với các dự án làm việc nhóm và hackathon, tôi có thể áp dụng cách tiếp cận được chia sẻ bởi Team VIB: bắt đầu từ một vấn đề thực tế, xác định MVP, phân chia nhiệm vụ rõ ràng, xây dựng nhanh chóng, kiểm tra thường xuyên và chuẩn bị một bài thuyết trình tập trung.
+
+Đối với các hệ thống dựa trên AI, tôi không nên chỉ phụ thuộc vào các prompt. Cần phải thêm xác thực, đầu ra có cấu trúc, giám sát, ghi nhật ký và xử lý dự phòng để làm cho các ứng dụng AI an toàn và ổn định hơn.
+
+## Kế Hoạch Hành Động Cá Nhân
+
+* Thực hành viết các prompt AI tốt hơn với ngữ cảnh rõ ràng, mục tiêu, ràng buộc và định dạng đầu ra.
+* Áp dụng các khái niệm CloudFront vào các dự án web hoặc đám mây trong tương lai để cải thiện hiệu suất và bảo mật.
+* Xây dựng một dự án nhỏ sử dụng AI để hỗ trợ phân tích tài liệu, ghi chú hoặc tạo báo cáo.
+* Học thêm về hành vi LLM, đầu ra có cấu trúc, xác thực và các biện pháp bảo vệ.
+* Tìm hiểu thêm về các hệ thống đa tác nhân và cách chúng có thể được sử dụng cho các quy trình kinh doanh phức tạp.
+* Cải thiện làm việc nhóm và tư duy sản phẩm bằng cách thực hành lập kế hoạch MVP và chuẩn bị demo.
+
+## Suy Ngẫm Cá Nhân
+
+FCAJ Community Day là một sự kiện giá trị vì nó kết nối nhiều chủ đề công nghệ hiện đại với các trường hợp sử dụng thực tế. Các phiên giúp tôi hiểu rằng AI và Cloud không chỉ là các khái niệm lý thuyết mà còn là những công cụ có thể giải quyết các vấn đề thực tế trong học tập, phát triển phần mềm, tối ưu hóa hệ thống và vận hành doanh nghiệp.
+
+Bài học hữu ích nhất đối với tôi là công nghệ phải được sử dụng với ngữ cảnh phù hợp. AI cần ngữ cảnh rõ ràng để tạo ra kết quả tốt hơn, hệ thống Cloud cần kiến trúc phù hợp để nhanh và an toàn, và sản phẩm cần bắt đầu từ các vấn đề người dùng thực tế.
+
+Sau sự kiện, tôi có thêm động lực để tiếp tục học AWS, AI, Kiến Trúc Đám Mây và Kỹ Thuật Phần Mềm. Tôi cũng nhận ra rằng ngoài kỹ năng kỹ thuật, tôi cần phát triển tư duy hệ thống, tư duy sản phẩm, làm việc nhóm và khả năng học tập liên tục để phát triển trong lĩnh vực công nghệ.
+
+> Tổng thể, FCAJ Community Day giúp tôi có được kiến thức thực tế về AI, Cloud, LLM, CloudFront, phát triển sản phẩm và các hệ thống đa tác nhân. Sự kiện đã cho tôi cả những hiểu biết kỹ thuật và động lực để tiếp tục xây dựng các dự án và cải thiện hướng nghề nghiệp của mình trong công nghệ.

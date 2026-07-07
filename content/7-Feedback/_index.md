@@ -36,12 +36,22 @@ The company provides an internship allowance and offers flexible working hours w
 
 ### Additional Questions
 - What did you find **most satisfying** during your internship?  
+  I was most satisfied with the enthusiastic support from my mentor and team members. Everyone was always ready to answer questions and share experiences, which helped me feel more confident at work.
+  
 - What do you think the company **should improve** for future interns?  
+  I think we could add more detailed onboarding sessions about internal tools and processes right from the start to help interns get up to speed faster.
+  
 - If recommending to a friend, would you **suggest they intern here**? Why or why not?  
+  I would recommend my friends to join this program. Because it's a great opportunity to learn practical knowledge, get familiar with a professional working environment, and receive guidance from experienced people.
 
 ---
 
 ### Suggestions & Expectations
 - Do you have any suggestions to improve the internship experience?  
+  I suggest organizing more sharing sessions between interns to exchange experiences and learn from each other.
+  
 - Would you like to continue this program in the future?  
-- Any other comments (free sharing):
+  Yes, I would love to continue participating in this program to learn more and contribute more to the team.
+  
+- Any other comments (free sharing):  
+  I feel very lucky to have joined the First Cloud Journey program. The program has helped me better understand the IT industry and build a solid skill foundation for the future.

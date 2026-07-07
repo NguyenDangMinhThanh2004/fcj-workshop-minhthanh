@@ -34,11 +34,21 @@ Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về t
 
 ### Một số câu hỏi khác
 - Điều bạn **hài lòng nhất** trong thời gian thực tập?  
+  Tôi hài lòng nhất về sự hỗ trợ nhiệt tình từ mentor và các thành viên trong team. Mọi người luôn sẵn sàng giải đáp thắc mắc và chia sẻ kinh nghiệm, giúp tôi tự tin hơn khi làm việc.
+  
 - Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
+  Tôi nghĩ có thể bổ sung thêm các buổi onboarding chi tiết hơn về các công cụ và quy trình nội bộ ngay từ đầu, giúp thực tập sinh làm quen nhanh hơn.
+  
 - Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+  Tôi sẽ khuyên bạn bè tham gia chương trình này. Bởi vì đây là cơ hội tuyệt vời để học hỏi kiến thức thực tế, làm quen với môi trường làm việc chuyên nghiệp và nhận được sự hướng dẫn từ những người có kinh nghiệm.
 
 
 ### Đề xuất & mong muốn
 - Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+  Tôi đề xuất tổ chức thêm các buổi sharing session giữa các thực tập sinh để chia sẻ kinh nghiệm và học hỏi lẫn nhau.
+  
+- Bạn có muốn tiếp tục chương trình này trong tương lai?  
+  Có, tôi rất muốn tiếp tục tham gia chương trình để học hỏi thêm và đóng góp nhiều hơn cho team.
+  
+- Góp ý khác (tự do chia sẻ):  
+  Tôi cảm thấy rất may mắn khi được tham gia chương trình First Cloud Journey. Chương trình đã giúp tôi hiểu rõ hơn về ngành CNTT và xây dựng nền tảng kỹ năng vững chắc cho tương lai.
